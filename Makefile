@@ -45,7 +45,7 @@ SRCS = $(addprefix $(SRC_DIR), \
        ft_putchar_fd.c \
        ft_putstr_fd.c \
        ft_putendl_fd.c \
-       ft_putnbr_fd.c
+       ft_putnbr_fd.c)
 
 BONUS_SRCS =    $(addprefix $(SRC_DIR), \	
 		ft_lstnew_bonus.c \
@@ -56,7 +56,7 @@ BONUS_SRCS =    $(addprefix $(SRC_DIR), \
 		ft_lstdelone_bonus.c \
 		ft_lstclear_bonus.c \
 		ft_lstiter_bonus.c \
-		ft_lstmap_bonus.c
+		ft_lstmap_bonus.c)
 
 OBJS = $(SRCS:.c=.o)
 BONUS_OBJS = $(BONUS_SRCS:.c=.o)
