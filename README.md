@@ -111,4 +111,4 @@ libft/
 
 - All functions are prefixed with `ft_` to avoid conflicts with standard library names.
 - No standard library functions are used in the implementations (except where explicitly allowed).
-- Memory management follows strict no-leak policies.
+- Memory management follows strict no-leak policies. 

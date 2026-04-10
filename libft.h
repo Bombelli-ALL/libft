@@ -54,7 +54,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n);
 void	*ft_memset(void *s, int c, size_t n);
 void	*ft_calloc(size_t nm, size_t nem);
 
-//bonus_part
+//bonus__part
 
 typedef struct s_list
 {

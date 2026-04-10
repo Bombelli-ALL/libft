@@ -10,6 +10,7 @@ AR = ar rcs
 SRC_DIR = src/
 RM = rm -f
 
+
 SRCS = $(addprefix $(SRC_DIR), \
        ft_isalpha.c \
        ft_isdigit.c \
