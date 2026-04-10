@@ -7,9 +7,11 @@ CC = cc
 FLAGS = -Wall -Wextra -Werror
 
 AR = ar rcs
-
+SRC_DIR = src/
 RM = rm -f
-SRCS = ft_isalpha.c \
+
+SRCS = $(addprefix $(SRC_DIR), \
+       ft_isalpha.c \
        ft_isdigit.c \
        ft_isalnum.c \
        ft_isascii.c \
@@ -44,7 +46,8 @@ SRCS = ft_isalpha.c \
        ft_putendl_fd.c \
        ft_putnbr_fd.c
 
-BONUS_SRCS =	ft_lstnew_bonus.c \
+BONUS_SRCS =    $(addprefix $(SRC_DIR), \	
+		ft_lstnew_bonus.c \
 		ft_lstadd_front_bonus.c \
 		ft_lstsize_bonus.c \
 		ft_lstlast_bonus.c \
